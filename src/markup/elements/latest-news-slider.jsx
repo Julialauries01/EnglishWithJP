@@ -43,14 +43,14 @@ const content = [
 		date: "19 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic4,
+		thumb: blogGridPic1,
 		authorPic: testPic4,
 		author: "Edineia Saraiva",
 		title: "Título do texto e tals",		
 		date: "18 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic5,
+		thumb: blogGridPic1,
 		authorPic: testPic5,
 		author: "Edineia Saraiva",
 		title: "Título do texto e tals",		
@@ -107,8 +107,8 @@ class LatestNewsSection extends Component{
 				<section className="section-area section-sp1 blog-area" style={{backgroundImage: "url("+lingBg2+")", backgroundPosition: "center", backgroundSize: "cover",}}>
 					<div className="container">
 						<div className="heading-bx text-center">
-							<h6 className="title-ext text-secondary">Latest News</h6>
-							<h2 className="title">Our Latest News</h2>
+							<h6 className="title-ext text-secondary">Últimas notícias</h6>
+							<h2 className="title">Últimas notícias</h2>
 						</div>
 						
 						<Slider {...settings} className="tt-slider blog-slide slider-sp0 slick-arrow-none">
