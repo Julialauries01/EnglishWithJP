@@ -29,11 +29,11 @@ const content = [
 		date: "21 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic2,
+		thumb: blogGridPic1,
 		authorPic: testPic1,
 		author: "Edineia Saraiva",
-		title: "Título do texto e tals",		
-		date: "20 Junho 2024",
+		title: "A Importância do acompanhamento psicológico nos casos de Autismo",		
+		date: "21 Junho 2024",
 	},
 	{ 
 		thumb: blogGridPic3,
