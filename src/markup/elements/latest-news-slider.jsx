@@ -32,14 +32,14 @@ const content = [
 		thumb: blogGridPic2,
 		authorPic: testPic1,
 		author: "Edineia Saraiva",
-		title: "A Importância do acompanhamento psicológico no casamento",		
+		title: "Título do texto e tals",		
 		date: "20 Junho 2024",
 	},
 	{ 
 		thumb: blogGridPic3,
 		authorPic: testPic1,
 		author: "Edineia Saraiva",
-		title: "Why Is Skin Surgeon Considered Underrated",		
+		title: "Título do texto e tals",		
 		date: "19 Junho 2024",
 	},
 	{ 

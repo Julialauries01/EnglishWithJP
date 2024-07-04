@@ -7,14 +7,14 @@ import logo from '../../images/logo.png';
 import logoWhite from '../../images/logo-white.png';
 
 const Header = () => {
-	
+
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isSearchFormOpen, setIsSearchBtn] = useState(false);
 	const quikSearchBtn = () => setIsSearchBtn(!isSearchFormOpen);
 	const quikSearchClose = () => setIsSearchBtn(false);
 	const [activeItem, setActiveItem] = useState(null);
 	const [isMobileView, setIsMobileView] = useState(false);
-	
+
 	const toggleSubmenu = (item) => {
 		setActiveItem(item === activeItem ? null : item);
 	};
@@ -37,9 +37,7 @@ const Header = () => {
 	const handleMenuCloseClick = () => {
 		setIsMenuOpen(false);
 	};
-	
 
-	
 	useEffect(() => {
 		const handleResize = () => {
 			setIsMobileView(window.innerWidth >= 768);
