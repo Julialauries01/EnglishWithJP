@@ -29,10 +29,10 @@ const content = [
 		date: "21 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic1,
+		thumb: blogGridPic2,
 		authorPic: testPic1,
 		author: "Edineia Saraiva",
-		title: "A Importância do acompanhamento psicológico nos casos de Autismo",		
+		title: "A Importância do acompanhamentom psicológico nos casos de Autiso",		
 		date: "21 Junho 2024",
 	},
 	{ 
