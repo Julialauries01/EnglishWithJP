@@ -1,39 +1,45 @@
 import React, { Component } from 'react';
 
-class appointmentForm extends Component{
-	render(){
-		return(
-			<>
-				
-				<div className="appointment-form form-wraper">
-					<h3 className="title">Solicitar Agendamento</h3>
-					<form action="#">
-						<div className="form-group">
-							<select className="form-select form-control">
-								<option defaultValue>Agendamento</option>
-								<option defaultValue="1">Criança</option>
-								<option defaultValue="2">Adolescente</option>
-								<option defaultValue="3">Adulto</option>
-							</select>
-						</div>
-						<div className="form-group">
-							<select className="form-select form-control">
-								<option defaultValue>Psicóloga Edineia</option>
-							</select>
-						</div>
-						<div className="form-group">
-							<input type="text" className="form-control" placeholder="Seu nome"/>
-						</div>
-						<div className="form-group">
-							<input type="number" className="form-control" placeholder="Número de telefone"/>
-						</div>
-						<button type="submit" className="btn btn-secondary btn-lg">Solicitar Agendamento</button>
-					</form>
-				</div>
-			
-			</>
-		);
+// Função para lidar com a submissão do formulário
+
+class AppointmentForm extends Component {
+	handleSubmit = (e) => {
+		e.preventDefault();
+		const formEle = document.querySelector("form");
+		const formData = new FormData(formEle);
+		console.log("Formulário enviado", formData);
+	
+		fetch("https://script.google.com/macros/s/AKfycbw99F_zjQtTU21Jn8M-Hu32lEkhy4mB10BVGaxRK-FVHbf422sWOwz38WBfSf4Gbb_8bg/exec", {
+				method: "POST",
+				body: formData
+		})
 	}
+    render() {
+        return (
+            <>
+                <div className="appointment-form form-wraper">
+                    <h3 className="title">Solicitar Agendamento</h3>
+                    <div className="form-group">
+                        <select className="form-select form-control">
+                            <option defaultValue>Agendamento</option>
+                        </select>
+                    </div>
+                    <div className="form-group">
+                        <select className="form-select form-control">
+                            <option defaultValue>Psicóloga Edineia</option>
+                        </select>
+                    </div>
+                    <form action="#" className="form" onSubmit={this.handleSubmit}>
+                        <div className="form-group">
+                            <input type="text" className="form-control" name="Name" placeholder="Seu nome" />
+                            <input type="text" className="form-control" name="Email" placeholder="Número de telefone" />
+                            <input type="submit" className="btn btn-secondary btn-lg"/>
+                        </div>
+                    </form>
+                </div>
+            </>
+        );
+    }
 }
 
-export default appointmentForm;
+export default AppointmentForm;
