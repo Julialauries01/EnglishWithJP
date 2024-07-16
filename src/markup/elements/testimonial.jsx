@@ -42,9 +42,9 @@ class testimonialSection extends Component{
 								<div className="thumb-wraper">
 									<img className="bg-img" src={testShape} alt=""/>
 									<ul>
-										<li data-member="1"><Link to="#"><img src={testPic2} alt=""/></Link></li>
+										<li data-member="1"><Link to="#"><img src={testPic3} alt=""/></Link></li>
 										<li data-member="2"><Link to="#"><img src={testPic2} alt=""/></Link></li>
-										<li data-member="3"><Link to="#"><img src={testPic3} alt=""/></Link></li>
+										<li data-member="3"><Link to="#"><img src={testPic4} alt=""/></Link></li>
 										<li data-member="4"><Link to="#"><img src={testPic4} alt=""/></Link></li>
 										<li data-member="5"><Link to="#"><img src={testPic5} alt=""/></Link></li>
 										<li data-member="6"><Link to="#"><img src={testPic6} alt=""/></Link></li>
@@ -56,11 +56,14 @@ class testimonialSection extends Component{
 									<div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
+												<p>Na minha cabeça fazem alguns anos que aceitei que precisava de terapia, mas não tinha “coragem” de começar. Quando descobri que a Edinéia estava atendendo, meu coração se abriu, a ideia de anos amadureceu… oportunidade surgiu no momento de turbulência profissional e pessoal.
+Quando comecei a terapia, pensei porque não comecei antes.
+O ambiente que a Edinéia prepara nas sessões (on-line e presencial) é um dos gatilhos para nos sentirmos à vontade.
+Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão fantástica assim🙏🏾🫶🏾😘</p>
 											</div>
 											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<h5 className="name">Jessica</h5>
+												<p>Paciente</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -74,7 +77,7 @@ class testimonialSection extends Component{
 											</div>
 											<div className="client-info">
 												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<p>Paciente</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -88,7 +91,7 @@ class testimonialSection extends Component{
 											</div>
 											<div className="client-info">
 												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<p>Paciente</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -102,7 +105,7 @@ class testimonialSection extends Component{
 											</div>
 											<div className="client-info">
 												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<p>Paciente</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -116,7 +119,7 @@ class testimonialSection extends Component{
 											</div>
 											<div className="client-info">
 												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<p>Paciente</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
