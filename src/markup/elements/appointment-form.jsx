@@ -32,7 +32,7 @@ class AppointmentForm extends Component {
                     <form method="post" action="https://api.sheetmonkey.io/form/tjL8nGTNCXwcDEhkFCsoYH" className="form">
                         <div className="form-group" >
                             <input type="text" className="form-control" name="Name" placeholder="Seu nome" />
-                            <input type="text" className="form-control" name="Email" placeholder="Número de telefone" />
+                            <input type="number" className="form-control" name="Number" placeholder="Número de telefone" />
                             <input type="submit" className="btn btn-secondary btn-lg"/>
                         </div>
                     </form>
