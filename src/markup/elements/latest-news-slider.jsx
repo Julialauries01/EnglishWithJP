@@ -17,61 +17,67 @@ import blogGridPic3 from "../../images/blog/grid/pic3.jpg"
 // Team Content
 const content = [
 	{ 
-		thumb: blogGridPic1,
-		authorPic: testPic1,
-		author: "Edineia Saraiva",
-		title: "A Importância do acompanhamento psicológico nos casos de Autismo",		
-		date: "21 Junho 2024",
+			id: 1,
+			thumb: blogGridPic1,
+			authorPic: testPic1,
+			author: "Edineia Saraiva",
+			title: "A Importância do acompanhamento psicológico nos casos de Autismo",        
+			date: "21 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic2,
-		authorPic: testPic1,
-		author: "Edineia Saraiva",
-		title: "A Importância do acompanhamentom psicológico nos casos de Autiso",		
-		date: "21 Junho 2024",
+			id: 2,
+			thumb: blogGridPic2,
+			authorPic: testPic1,
+			author: "Edineia Saraiva",
+			title: "A Importância do acompanhamento psicológico nos casos de Autiso",        
+			date: "21 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic3,
-		authorPic: testPic1,
-		author: "Edineia Saraiva",
-		title: "Título do texto e tals",		
-		date: "19 Junho 2024",
+			id: 3,
+			thumb: blogGridPic3,
+			authorPic: testPic1,
+			author: "Edineia Saraiva",
+			title: "Título do texto e tals",        
+			date: "19 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic1,
-		authorPic: testPic1,
-		author: "Edineia Saraiva",
-		title: "Título do texto e tals",		
-		date: "18 Junho 2024",
+			id: 4,
+			thumb: blogGridPic1,
+			authorPic: testPic1,
+			author: "Edineia Saraiva",
+			title: "Título do texto e tals",        
+			date: "18 Junho 2024",
 	},
 	{ 
-		thumb: blogGridPic1,
-		authorPic: testPic1,
-		author: "Edineia Saraiva",
-		title: "Título do texto e tals",		
-		date: "17 Junho 2024",
+			id: 5,
+			thumb: blogGridPic1,
+			authorPic: testPic1,
+			author: "Edineia Saraiva",
+			title: "Título do texto e tals",        
+			date: "17 Junho 2024",
 	},
-]
+];
 
 const NewsItem = ({ item }) => {
 	return(
-		<div className="slider-item">
-			<div className="blog-card">
-				<div className="post-media">
-					<Link to="/blog-details"><img src={item.thumb} alt=""/></Link>
-				</div>
-				<div className="post-info">
-					<ul className="post-meta">
-						<li className="author"><Link to="/blog-details"><img src={item.authorPic} alt=""/>{item.author}</Link></li>
-						<li className="date"><i className="far fa-calendar-alt"></i>{item.date}</li>
-					</ul>
-					<h5 className="post-title"><Link to="/blog-details">{item.title}</Link></h5>		
-					<Link to="/blog-details" className="btn btn-outline-primary btn-sm">Leia mais <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
-				</div>
-			</div>	
-		</div>
+			<div className="slider-item">
+					<div className="blog-card">
+							<div className="post-media">
+									<Link to={`/blog-details/${item.id}`}><img src={item.thumb} alt=""/></Link>
+							</div>
+							<div className="post-info">
+									<ul className="post-meta">
+											<li className="author"><Link to={`/blog-details/${item.id}`}><img src={item.authorPic} alt=""/>{item.author}</Link></li>
+											<li className="date"><i className="far fa-calendar-alt"></i>{item.date}</li>
+									</ul>
+									<h5 className="post-title"><Link to={`/blog-details/${item.id}`}>{item.title}</Link></h5>        
+									<Link to={`/blog-details/${item.id}`} className="btn btn-outline-primary btn-sm">Leia mais <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+							</div>
+					</div>    
+			</div>
 	);
 };
+
 
 const settings = {
 	dots: false,

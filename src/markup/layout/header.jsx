@@ -120,7 +120,7 @@ const Header = () => {
 				{
 					id: 'blogDetails',
 					displayName: 'Detalhes do Blog',
-					linkName: 'blog-details'
+					linkName: 'blog-details/:id'
 				},
 			]
 		},

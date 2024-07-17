@@ -29,8 +29,6 @@ class testimonialSection extends Component{
 		
 		return(
 			<>
-					
-				
 				<section className="section-area section-sp3 testimonial-wraper">
 					<div className="container">
 						<div className="heading-bx text-center">
@@ -73,11 +71,7 @@ Muito grata por todo suporte e por ter conhecido uma pessoa e profissional tão 
 									<div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
-												<p>DEPOIMENTO DE MAIS DE UM ANO DE TERAPIA COM ESSA MARAVILHOSA 
-
-Em  de meados de 2022,precisei de atendimento psicologico para inicio de um novo ciclo em minha vida, e como DEUS é maravilhoso colocou a Dra Edneia em minha vida,fiz terapia mais de 1 ano e meio e 
-quem pensa que não precisa de uma psicologa em sua vida, se engana muito, com toda dedicação ela me ajudou 
-a colocar meus pensamentos em ordem, a como superar desafios e superar algo que nunca imaginava que poderia superar que tinha que ser feito daquela forma,de como deixar os filhos seguir sua propria historia, como aprender a cuidar do meu corpo, para meu psicologico estar bem de corpo e alma... "superações e auto conhecimento", isso que aprendi com essa experiencia que estive em terapia com a DRA EDNEIA , estou de alta , mas sempre que posso marco uma sessão para uma ajudinha dessa maravilhosa. Recomendo e muito que façam terapia com essa excelente profissional .</p>
+												<p>lorem impsum</p>
 											</div>
 											<div className="client-info">
 												<h5 className="name">Soraia</h5>
