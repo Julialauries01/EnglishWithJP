@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class AppointmentForm extends Component {
 	handleSubmit = (e) => {
 		e.preventDefault();
-		const formEle = document.querySelector("form");
+		const formEle = document.querySelector("form-group");
 		const formData = new FormData(formEle);
 		console.log("Formulário enviado", formData);
 	
@@ -29,8 +29,8 @@ class AppointmentForm extends Component {
                             <option defaultValue>Psicóloga Edineia</option>
                         </select>
                     </div>
-                    <form action="#" className="form" onSubmit={this.handleSubmit}>
-                        <div className="form-group">
+                    <form method="post" action="https://api.sheetmonkey.io/form/tjL8nGTNCXwcDEhkFCsoYH" className="form">
+                        <div className="form-group" >
                             <input type="text" className="form-control" name="Name" placeholder="Seu nome" />
                             <input type="text" className="form-control" name="Email" placeholder="Número de telefone" />
                             <input type="submit" className="btn btn-secondary btn-lg"/>
