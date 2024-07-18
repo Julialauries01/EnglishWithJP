@@ -57,6 +57,21 @@ const blogPost = [
 		content3: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
 		content4: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
 	},
+	{ 
+		id: 3,
+		thumb: blogDefaultPic4,
+		authorPic: testPic1,
+		title: "In this hospital there are special surgeon",		
+		author: "Edineia Saraiva",
+		date: "20 July 2021",
+		img1: image3,
+		img2: image4,
+		content: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
+		content1: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
+		content2: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
+		content3: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
+		content4: "Conteúdo do blog sobre a importância do acompanhamento psicológico nos casos de Autismo.", // Adicione o conteúdo aqui
+	},
 ];
 
 const BlogDetails = () => {
