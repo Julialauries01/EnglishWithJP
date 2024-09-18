@@ -89,8 +89,8 @@ const Header = () => {
 			] */
 		},
 		{
-			id: 'services',
-			name: 'Services',
+			id: 'serviços',
+			name: 'serviços',
 			linkName: '',
 			
 			subItems: [
@@ -106,7 +106,7 @@ const Header = () => {
 				},
 			]
 		},
-		{
+		/*{
 			id: 'blog',
 			name: 'Blog',
 			linkName: '#',
@@ -123,7 +123,7 @@ const Header = () => {
 					linkName: 'blog-details/:id'
 				},
 			]
-		},
+		},*/
 /*		{
 			id: 'contactUs',
 			name: 'Contact Us',

@@ -8,6 +8,7 @@ import testShape from "../../images/testimonials/shape.png"
 import testPic2 from "../../images/testimonials/pic2.jpg"
 import testPic3 from "../../images/testimonials/pic3.jpg"
 import testPic4 from "../../images/testimonials/pic4.jpg"
+import testPic8 from "../../images/testimonials/pic8.jpg"
 import testPic5 from "../../images/testimonials/pic5.jpg"
 import testPic6 from "../../images/testimonials/pic6.jpg"
 import plusOrange from "../../images/shap/plus-orange.png"
@@ -43,7 +44,7 @@ class testimonialSection extends Component{
 										<li data-member="1"><Link to="#"><img src={testPic3} alt=""/></Link></li>
 										<li data-member="2"><Link to="#"><img src={testPic2} alt=""/></Link></li>
 										<li data-member="3"><Link to="#"><img src={testPic4} alt=""/></Link></li>
-										<li data-member="4"><Link to="#"><img src={testPic4} alt=""/></Link></li>
+										<li data-member="4"><Link to="#"><img src={testPic8} alt=""/></Link></li>
 										<li data-member="5"><Link to="#"><img src={testPic5} alt=""/></Link></li>
 										<li data-member="6"><Link to="#"><img src={testPic6} alt=""/></Link></li>
 									</ul>

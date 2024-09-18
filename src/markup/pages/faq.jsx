@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import {Accordion} from 'react-bootstrap';
 
 // Elements
-import LatestNewsSection from "../elements/latest-news-slider";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
@@ -125,7 +124,7 @@ class Faq extends Component{
 						</div>
 					</section>
 					
-					<LatestNewsSection />
+			 {/* 		<LatestNewsSection /> */} 
 					
 				</div>
 			
