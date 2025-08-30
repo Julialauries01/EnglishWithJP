@@ -56,7 +56,7 @@ const BlogDetails = () => {
           Minha Metodologia
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-          Aulas práticas, dinâmicas e personalizadas para transformar sua relação com o inglês.
+          Aulas práticas, dinâmissscas e personalizadas para transformar sua relação com o inglês.
         </p>
         
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
