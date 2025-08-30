@@ -5,13 +5,9 @@ import lineBg from '../../images/appointment/line-bg.png';
 import appMobile from '../../images/appointment/mobile.png';
 import appWomen from '../../images/appointment/women.png';
 import canada from '../../images/appointment/canada.png';
-// import appSetting from '../../images/appointment/setting.png';
 import Australia from '../../images/appointment/Australia.png';
 import uk from '../../images/appointment/UnitedKingdom.png';
-// import ptImg1 from '../../images/appointment/UnitedStates.png';
-// import ptImg2 from '../../images/shap/wave-orange.png';
-// import ptImg3 from '../../images/shap/wave-blue.png';
-// import ptImg4 from '../../images/shap/circle-orange.png';
+
 
 import AppointmentForm from './appointment-form';
 
@@ -45,9 +41,7 @@ class aboutSection extends Component{
 								</div>					
 							</div>	
 							<img className="pt-img1 animate1" src={uk} alt=""/>
-							{/* <img className="pt-img2 animate-wave" src={ptImg2} alt=""/>
-							<img className="pt-img3 animate-wave" src={ptImg3} alt=""/>
-							<img className="pt-img4 animate2" src={ptImg4} alt=""/> */}
+
 							
 						</div>
 						

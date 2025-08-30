@@ -19,9 +19,9 @@ class aboutSection2 extends Component{
 					<div className="container inner-content">
 						<div className="row align-items-center">
 							<div className="col-lg-7 col-md-6 col-sm-7">
-								<h6 className="title-ext mb-3 text-secondary">Aulas de inglês com foco em conversação</h6>
+								<h6 className="title-ext mb-5 text-primary">Aulas de inglês com foco em conversação</h6>
 								<h2>Aulas dinâmicas e personalizadas para você ganhar confiança falando inglês desde a primeira aula.</h2>
-								<Link to="/about-us" className="btn mt-3 btn-dark btn-lg shadow">Quero estudar inglês agora!</Link>
+								<Link to="/about-us" className="btn mt-5 btn-dark btn-lg shadow">Quero estudar inglês agora!</Link>
 							</div>
 							<div className="col-lg-5 col-md-6 col-sm-5">
 								<div className="banner-img">

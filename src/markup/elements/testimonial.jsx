@@ -11,8 +11,6 @@ import testPic4 from "../../images/testimonials/pic4.jpg"
 import testPic8 from "../../images/testimonials/pic8.jpg"
 import testPic5 from "../../images/testimonials/pic5.jpg"
 import testPic6 from "../../images/testimonials/pic6.jpg"
-import plusOrange from "../../images/shap/plus-orange.png"
-import squareBlue from "../../images/shap/square-blue.png"
 import circleDots from "../../images/shap/circle-dots.png"
 import circleOrange2 from "../../images/shap/circle-orange-2.png"
 
@@ -33,7 +31,7 @@ class testimonialSection extends Component{
 				<section className="section-area section-sp3 testimonial-wraper">
 					<div className="container">
 						<div className="heading-bx text-center">
-							<h6 className="title-ext text-secondary">Depoimentos</h6>
+							<h6 className="title-ext text-primary">Depoimentos</h6>
 							<h2 className="title m-b0">Veja o que meus alunos <br/>dizem sobre mim</h2>
 						</div>
 						<div className="row align-items-center">
@@ -184,8 +182,6 @@ aplicabilidade no dia a dia e muita coisa da minha própria rotina.</p>
 							</div>	 
 						</div>	 
 					</div>
-					<img className="pt-img1 animate1" src={plusOrange} alt=""/>
-					<img className="pt-img2 animate2" src={squareBlue} alt=""/>
 					<img className="pt-img3 animate3" src={circleDots} alt=""/>
 					<img className="pt-img4 animate4" src={circleOrange2} alt=""/>
 				</section>

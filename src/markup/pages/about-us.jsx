@@ -7,7 +7,6 @@ import aboutThumb1 from '../../images/about/pic-1.jpg';
 // import aboutThumb3 from '../../images/about/pic-3.jpg';
 import ptImg1 from '../../images/shap/wave-orange.png';
 import ptImg2 from '../../images/shap/circle-small-blue.png';
-import ptImg4 from '../../images/shap/square-dots-orange.png';
 import ptImg5 from '../../images/shap/square-blue.png';
 
 class aboutSection extends Component{
@@ -107,7 +106,6 @@ class aboutSection extends Component{
 					<img className="pt-img1 animate-wave" src={ptImg1} alt=""/>
 					<img className="pt-img2 animate2" src={ptImg2} alt=""/>
 					<img className="pt-img3 animate-rotate" src={ptImg5} alt=""/>
-					<img className="pt-img4 animate-wave" src={ptImg4} alt=""/>
 					<img className="pt-img5 animate2" src={ptImg5} alt=""/>
 				</section>
 				

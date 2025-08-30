@@ -17,7 +17,8 @@
 		left: 0;
 		bottom: 0;
 		position: absolute;
-		// background-image: url(../../images/main-banner/shape1.png);
+				// background-image: url(../../images/main-banner/shape1.png);
+
 		background-repeat: no-repeat;
 		background-position: bottom left;
 		background-size: 100%;
@@ -42,11 +43,12 @@
 		padding: 5px 15px;
 		background-position: center;
 		background-repeat: repeat;
+// maind-banner2
 		&.text-primary{
-			background-image: url(../../images/shap/ext-blue.png);
+			background-image: url(../../images/shap/ext-orange.png);
 		}
 		&.text-secondary{
-			background-image: url(../../images/shap/ext-orange.png);
+			background-image: url(../../images/shap/ext-blue.png);
 		}
 	}
 	.tag-list{
@@ -85,9 +87,11 @@
 		-webkit-animation: up-down 2.5s infinite  alternate;
 		animation: up-down 2.5s infinite  alternate;
 		position: relative;	
-		margin-right: -160px;
-		margin-left: -50px;
+		margin-right: 160px;
+		margin-left: 50px;
+		width: 100%;
 	}	
+
 	.inner-content{
 		position: absolute;
 		left: 50%;

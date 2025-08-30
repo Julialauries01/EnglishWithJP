@@ -3,12 +3,10 @@ import { Link } from 'react-router-dom';
 
 // Import Images
 import aboutThumb1 from '../../images/about/pic-1.jpg';
-// import aboutThumb2 from '../../images/about/pic-4.png';
-// import aboutThumb3 from '../../images/about/pic-3.jpg';
 // import ptImg1 from '../../images/shap/wave-orange.png';
 // import ptImg2 from '../../images/shap/circle-small-blue.png';
-// import ptImg4 from '../../images/shap/square-dots-orange.png';
-// import ptImg5 from '../../images/shap/square-blue.png';
+import ptImg4 from '../../images/shap/square-dots-orange.png';
+import ptImg5 from '../../images/shap/square-blue.png';
 
 class aboutSection extends Component{
 	render(){
@@ -29,7 +27,7 @@ class aboutSection extends Component{
 							</div>
 							<div className="col-lg-6 mb-30">
 								<div className="heading-bx">
-									<h6 className="title-ext text-secondary">Sobre mim</h6>
+									<h6 className="title-ext text-primary">Sobre mim</h6>
 									<h2 className="title">Construindo a fluência juntos.</h2>
 									<p>Olá, meu nome é João Pedro e sou professor de Língua Inglesa há quase 8 anos. Sou licenciado em Letras e possuo pós-graduação em Língua Inglesa, além de diversos  cursos de complementação nas áreas de ensino de línguas e Linguística. 
 Ao longo da minha trajetória, atuei em instituições de ensino reconhecidas e, desde a  pandemia, dedico-me exclusivamente ao ensino on-line, oferecendo aulas particulares  para alunos no Brasil e também no exterior.</p>
@@ -71,11 +69,11 @@ Ao longo da minha trajetória, atuei em instituições de ensino reconhecidas e,
 							</div>
 						</div>
 					</div>
-					{/* <img className="pt-img1 animate-wave" src={ptImg1} alt=""/>
-					<img className="pt-img2 animate2" src={ptImg2} alt=""/>
+					{/* <img className="pt-img1 animate-wave" src={ptImg1} alt=""/> */}
+					{/* <img className="pt-img2 animate2" src={ptImg2} alt=""/> */}
 					<img className="pt-img3 animate-rotate" src={ptImg5} alt=""/>
 					<img className="pt-img4 animate-wave" src={ptImg4} alt=""/>
-					<img className="pt-img5 animate2" src={ptImg5} alt=""/> */}
+					<img className="pt-img5 animate2" src={ptImg5} alt=""/>
 				</section>
 				
 			</>
