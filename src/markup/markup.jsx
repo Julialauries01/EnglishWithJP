@@ -11,7 +11,7 @@ import Footer from "./layout/footer";
 
 // All Pages Router
 import Index from './pages/index';
-import AboutUs from './pages/about-us';
+// import AboutUs from './pages/about-us';
 import Services from './pages/services';
 import FormLogin from './pages/form-login';
 import FormRegister from './pages/form-register';
@@ -28,7 +28,7 @@ class Markup extends Component {
 					<Routes>
 						<Route element={<ThemeLayout />}>
 							<Route path='/' element={<Index />} />
-							<Route path='/about-us' element={<AboutUs />} />
+							{/* <Route path='/about-us' element={<AboutUs />} /> */}
 							<Route path='/services' element={<Services />} />
 							<Route path='/faq' element={<Faq />} />
 							<Route path='/contact-us' element={<ContactUs />} />

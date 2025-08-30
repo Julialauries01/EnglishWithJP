@@ -80,7 +80,7 @@ class aboutSection extends Component{
 											<ul>
 												{/* <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={facebook} alt=""/></a></li> */}
 												{/* <li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><img src={twitter} alt=""/></a></li>*/}
-												<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/psi.edineiasaraiva"><img src={instagram} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/englishwith_jp"><img src={instagram} alt=""/></a></li>
 												{/* <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/"><img src={linkedin} alt=""/></a></li>*/}
 											</ul>
 										</div>
