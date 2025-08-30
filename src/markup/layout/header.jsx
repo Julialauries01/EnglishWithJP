@@ -27,11 +27,6 @@ const Header = () => {
 		}
 	};
 
-	const handleContactBtnClick = () => {
-		setIsMenuOpen(false);
-		// Implement the logic to toggle the contact sidebar here.
-	};
-
 	const handleMenuCloseClick = () => {
 		setIsMenuOpen(false);
 	};

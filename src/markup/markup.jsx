@@ -20,7 +20,6 @@ import FormForgetPassword from './pages/form-forget-password';
 import Faq from './pages/faq';
 import ContactUs from './pages/contact-us';
 import BlogGrid from './pages/blog-grid';
-import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 
 class Markup extends Component {
@@ -37,7 +36,6 @@ class Markup extends Component {
 							<Route path='/faq' element={<Faq />} />
 							<Route path='/contact-us' element={<ContactUs />} />
 							<Route path='/blog-grid' element={<BlogGrid />} />s
-							<Route path='/blog-details' element={<BlogDetails />} />
 							<Route path="*" element={<Error />} />
 						</Route>
 						
