@@ -13,14 +13,14 @@ import Footer from "./layout/footer";
 import Index from './pages/index';
 import AboutUs from './pages/about-us';
 import Services from './pages/services';
-// import ServiceDetail from './pages/service-detail';
-// import FormLogin from './pages/form-login';
-// import FormRegister from './pages/form-register';
-// import FormForgetPassword from './pages/form-forget-password';
+import ServiceDetail from './pages/service-detail';
+import FormLogin from './pages/form-login';
+import FormRegister from './pages/form-register';
+import FormForgetPassword from './pages/form-forget-password';
 import Faq from './pages/faq';
 import ContactUs from './pages/contact-us';
-// import BlogGrid from './pages/blog-grid';
-// import BlogDetails from './pages/blog-details';
+import BlogGrid from './pages/blog-grid';
+import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 
 class Markup extends Component {
@@ -33,17 +33,17 @@ class Markup extends Component {
 							<Route path='/' element={<Index />} />
 							<Route path='/about-us' element={<AboutUs />} />
 							<Route path='/services' element={<Services />} />
-							{/* <Route path='/service-detail' element={<ServiceDetail />} /> */}
+							<Route path='/service-detail' element={<ServiceDetail />} />
 							<Route path='/faq' element={<Faq />} />
 							<Route path='/contact-us' element={<ContactUs />} />
-							{/* <Route path='/blog-grid' element={<BlogGrid />} /> */}
-							{/* <Route path='/blog-details/:id' element={<BlogDetails />} /> */}
+							<Route path='/blog-grid' element={<BlogGrid />} />s
+							<Route path='/blog-details' element={<BlogDetails />} />
 							<Route path="*" element={<Error />} />
 						</Route>
 						
-						{/* <Route path="/form-login" element={<FormLogin />} />
+						<Route path="/form-login" element={<FormLogin />} />
 						<Route path="/form-register" element={<FormRegister />} />
-						<Route path='/form-forget-password' element={<FormForgetPassword />} /> */}
+						<Route path='/form-forget-password' element={<FormForgetPassword />} />
 					</Routes>
 					<PageScrollTop />
 				</BrowserRouter>

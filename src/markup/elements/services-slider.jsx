@@ -41,7 +41,7 @@ class ServicesSliderSection extends Component{
 						<div className="col-xl-4 col-lg-7 mb-30">	
 							<div className="heading-bx">
 								<h6 className="title-ext text-secondary">Serviços</h6>
-								<h2 className="title">Atendimento presencial e online</h2>
+								<h2 className="title">Aulas online</h2>
 								<p>As principais demandas tratadas na clínica</p>
 								</div>
 							<Link to="/services" className="btn btn-secondary btn-lg shadow">Todos os serviços</Link>

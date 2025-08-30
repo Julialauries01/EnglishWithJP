@@ -65,21 +65,9 @@ const Header = () => {
 		},
 		{
 			id: 'serviços',
-			name: 'serviços',
+			name: 'Serviços',
 			linkName: '',
-			
-			subItems: [
-				{
-					id: 'services',
-					displayName: 'Serviços',
-					linkName: 'services'
-				},
-				{
-					id: 'serviceDetail',
-					displayName: 'Service Detail',
-					linkName: 'service-detail'
-				},
-			]
+		
 		},
 	];
 	
