@@ -34,7 +34,7 @@ class testimonialSection extends Component{
 					<div className="container">
 						<div className="heading-bx text-center">
 							<h6 className="title-ext text-secondary">Depoimentos</h6>
-							<h2 className="title m-b0">Veja o que meus pacientes <br/>dizem sobre mim</h2>
+							<h2 className="title m-b0">Veja o que meus alunos <br/>dizem sobre mim</h2>
 						</div>
 						<div className="row align-items-center">
 							<div className="col-lg-6 text-center">

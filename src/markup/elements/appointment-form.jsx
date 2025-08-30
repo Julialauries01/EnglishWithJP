@@ -18,15 +18,15 @@ class AppointmentForm extends Component {
         return (
             <>
                 <div className="appointment-form form-wraper">
-                    <h3 className="title">Solicitar Agendamento</h3>
+                    <h3 className="title">Agende sua aula</h3>
                     <div className="form-group">
-                        <select className="form-select form-control">
+                        {/* <select className="form-select form-control">
                             <option defaultValue>Agendamento</option>
-                        </select>
+                        </select> */}
                     </div>
                     <div className="form-group">
                         <select className="form-select form-control">
-                            <option defaultValue>Psicóloga Edineia</option>
+                            <option defaultValue>Professor João Pedro</option>
                         </select>
                     </div>
                     <form method="post" action="https://api.sheetmonkey.io/form/tjL8nGTNCXwcDEhkFCsoYH" className="form">
