@@ -417,29 +417,29 @@
 	}
 	
 	&.feature1{
-		border-color: #b2f0fb;
+		border-color: #041E42;
 		&:after {	
-			background-color: #ecfcff;
+			background-color: #99add1;
 		}
 	}
-	&.feature2 {
-		border-color: #a4fcc4;
-		&:after {	
-			background-color: #eefff4;
-		}
-	}
+	// &.feature2 {
+	// 	border-color: #a4fcc4;
+	// 	&:after {	
+	// 		background-color: #eefff4;
+	// 	}
+	// }
 	&.feature3 {
-		border-color: #ffbdbc;
+		border-color: #69060C;
 		&:after {	
-			background-color: #fff0f0;
+			background-color: #ce777d;
 		}
 	}
-	&.feature4 {
-		border-color: #e2c4ff;
-		&:after{	
-			background-color: #f8f0ff;
-		}
-	}
+	// &.feature4 {
+	// 	border-color: #e2c4ff;
+	// 	&:after{	
+	// 		background-color: #f8f0ff;
+	// 	}
+	// }
 	.icon-content{
 		.ttr-title{
 			font-size:16px;
