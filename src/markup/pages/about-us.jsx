@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 // Import Images
 import aboutThumb1 from '../../images/about/pic-1.jpg';
-import aboutThumb2 from '../../images/about/pic-4.png';
-import aboutThumb3 from '../../images/about/pic-3.jpg';
+// import aboutThumb2 from '../../images/about/pic-4.png';
+// import aboutThumb3 from '../../images/about/pic-3.jpg';
 import ptImg1 from '../../images/shap/wave-orange.png';
 import ptImg2 from '../../images/shap/circle-small-blue.png';
 import ptImg4 from '../../images/shap/square-dots-orange.png';
@@ -21,9 +21,9 @@ class aboutSection extends Component{
 								<div className="about-thumb-area">
 									<ul>
 										<li><img className="about-thumb1" src={aboutThumb1} alt=""/></li>
-										<li><img className="about-thumb2" src={aboutThumb2} alt=""/></li>
-										<li><img className="about-thumb3" src={aboutThumb3} alt=""/></li>
-										<li><div className="exp-bx">10<span>Certificações</span></div></li>
+										{/* <li><img className="about-thumb2" src={aboutThumb2} alt=""/></li>
+										<li><img className="about-thumb3" src={aboutThumb3} alt=""/></li> */}
+										{/* <li><div className="exp-bx">10<span>Certificações</span></div></li> */}
 									</ul>
 								</div>
 							</div>

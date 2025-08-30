@@ -77,7 +77,7 @@ class ContactUs extends Component{
 												<div className="icon-box">
 													<h6 className="title"><i className="ti-id-badge"></i>Email &amp; Telefone</h6>		
 													<Link to="#" className="text-white">edineiasaraiva.psi@gmail.com</Link>
-													<p>(16) 99209-1665</p>
+													<p>(64) 98402-8193</p>
 												</div>
 												<div className="icon-box">
 													<h6 className="title"><i className="ti-world"></i>Siga-me</h6>
@@ -104,7 +104,7 @@ class ContactUs extends Component{
 										<div className="icon-content">
 											<h5 className="ttr-title">Telefone de contato</h5>
 											<p>Contate-me através do número:<br />
-												+55 (16) 99209-1665
+												+55 (64) 98402-8193
 											</p>
 										</div>
 									</div>

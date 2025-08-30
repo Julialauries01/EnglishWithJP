@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Sticky from 'react-stickynode';
-
-// Images
 import logo from '../../images/logo.png';
 import logoWhite from '../../images/logo-white.png';
 
@@ -63,30 +61,7 @@ const Header = () => {
 		{
 			id: 'aboutus',
 			name: 'Sobre mim',
-			linkName: 'about-us',
-			
-		/*	subItems: [
-				{
-					id: 'aboutus',
-					displayName: 'About Us',
-					linkName: 'about-us'
-				},
-				{
-					id: 'faq',
-					displayName: "FAQ's",
-					linkName: 'faq'
-				},
-				{
-					id: 'error',
-					displayName: 'Error 404',
-					linkName: 'error-404'
-				},
-				{
-					id: 'formLogin',
-					displayName: 'Login / Register',
-					linkName: 'form-login'
-				},
-			] */
+			linkName: 'about',
 		},
 		{
 			id: 'serviços',
@@ -106,29 +81,6 @@ const Header = () => {
 				},
 			]
 		},
-		/*{
-			id: 'blog',
-			name: 'Blog',
-			linkName: '#',
-			
-			subItems: [
-				{
-					id: 'blogGrid',
-					displayName: 'Blogs',
-					linkName: 'blog-grid'
-				},
-				{
-					id: 'blogDetails',
-					displayName: 'Detalhes do Blog',
-					linkName: 'blog-details/:id'
-				},
-			]
-		},*/
-/*		{
-			id: 'contactUs',
-			name: 'Contact Us',
-			linkName: 'contact-us'
-		} */
 	];
 	
 	return(
@@ -161,8 +113,8 @@ const Header = () => {
 										<i className="las la-search"></i>
 									</button>
 								</li>
-								<li className="num-bx"><a href="https://wa.me/5516992091665"><i className="fas fa-phone-alt"></i> (+55) 16 99209-1665</a></li>
-								<li className="btn-area"><Link to="/contact-us" className="btn btn-primary shadow">CONTATE-ME <i className="btn-icon-bx fas fa-chevron-right"></i></Link></li>
+								<li className="num-bx"><a href="https://wa.me/5564984028193"><i className="fas fa-phone-alt"></i> (+55) 64 98402-8193</a></li>
+								<li className="btn-area"><Link to="/contact-us" className="btn btn-secondary shadow">CONTATE-ME <i className="btn-icon-bx fas fa-chevron-right"></i></Link></li>
 							</ul>
 						</div>
 						

@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 // Images
 import Logo from '../../images/logo.png';
-import footerBg from '../../images/background/footer.jpg';
-import ptImg1 from '../../images/shap/wave-blue.png';
-import ptImg2 from '../../images/shap/circle-dots.png';
-import ptImg3 from '../../images/shap/plus-blue.png';
-import ptImg4 from '../../images/shap/wave-blue.png';
+import footerBg from '../../images/background/footer.jpg'; 
+// import ptImg1 from '../../images/shap/wave-blue.png';
+// import ptImg2 from '../../images/shap/circle-dots.png';
+// import ptImg3 from '../../images/shap/plus-blue.png';
+// import ptImg4 from '../../images/shap/wave-blue.png';
 
 // Social Images
 /*import facebook from '../../images/social/facebook.png';
@@ -32,14 +32,14 @@ class aboutSection extends Component{
 										<div className="ft-contact">
 											<p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et.</p>
 											<div className="contact-bx">
-<a href="https://wa.me/5516992091665" target="_blank" rel="noopener noreferrer">
+<a href="https://wa.me/5564984028193" target="_blank" rel="noopener noreferrer">
     <div className="icon">
         <i className="fas fa-phone-alt"></i>
     </div>
 </a>
 												<div className="contact-number">
 													<span>Contate-me</span>
-													<h4 className="number">(16) 99209-1665</h4>
+													<h4 className="number">(64) 98402-8193</h4>
 												</div>
 											</div>
 										</div>
@@ -62,12 +62,7 @@ class aboutSection extends Component{
 									<div className="widget footer_widget">
 										<h3 className="footer-title">Meus serviços</h3>
 										<ul>
-											<li><span>Autismo</span></li>
-											<li><span>TDAH</span></li>
-											<li><span>Luto</span></li>
-											<li><span>Ansiedade</span></li>
-											<li><span>Depressão</span></li>
-											<li><span>Outros</span></li>
+											<li><span>Aulas de inglês para brasileiros</span></li>
 										</ul>
 									</div>
 								</div>
@@ -103,10 +98,10 @@ class aboutSection extends Component{
 							</div>
 						</div>
 					</div>
-					<img className="pt-img1 animate-wave" src={ptImg1} alt=""/>
+					{/* <img className="pt-img1 animate-wave" src={ptImg1} alt=""/>
 					<img className="pt-img2 animate1" src={ptImg2} alt=""/>
 					<img className="pt-img3 animate-rotate" src={ptImg3} alt=""/>
-					<img className="pt-img4 animate-wave" src={ptImg4} alt=""/>
+					<img className="pt-img4 animate-wave" src={ptImg4} alt=""/> */}
 				</footer>
 			
 			</>
