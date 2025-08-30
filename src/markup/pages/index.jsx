@@ -4,10 +4,13 @@ import React from 'react';
 import MainBannerSection from "../elements/main-banner";
 import MainBannerSection2 from "../elements/main-banner2";
 import AboutSection from "../elements/about";
+// import BlogDetails from './blog-details';
 // import WorkSection from "../elements/work";
 import AppointmentSection from "../elements/appointment";
-// import TestimonialSection from "../elements/testimonial";
+import TestimonialSection from "../elements/testimonial";
 // import ServicesSliderSection from "../elements/services-slider";
+import LatestNewsSection from '../elements/feature-section3';
+
 
 function Index(){
 	
@@ -15,9 +18,11 @@ function Index(){
 		<>
 			
 			<MainBannerSection />
+
 			<MainBannerSection2 />
 			
 			<AboutSection />
+			{/* <BlogDetails/> */}
 			
 			{/* <WorkSection /> */}
 			
@@ -25,9 +30,9 @@ function Index(){
 			
 			{/* <ServicesSliderSection /> */}
 			
-			{/* <TestimonialSection /> */}
+			<TestimonialSection />
 			
-	 {/* <LatestNewsSection /> */} 
+	 <LatestNewsSection /> 
 			
 		</>
 		
