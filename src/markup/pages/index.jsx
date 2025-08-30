@@ -4,7 +4,6 @@ import React from 'react';
 import MainBannerSection from "../elements/main-banner";
 import MainBannerSection2 from "../elements/main-banner2";
 import AboutSection from "../elements/about";
-// import BlogDetails from './blog-details';
 // import WorkSection from "../elements/work";
 import AppointmentSection from "../elements/appointment";
 import TestimonialSection from "../elements/testimonial";
