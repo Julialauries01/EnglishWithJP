@@ -53,13 +53,18 @@ const Header = () => {
       linkName: "#",
     },
     {
-      id: "aboutus",
-      name: "Sobre mim",
-      linkName: "about",
+      id: "metodologia",
+      name: "Metodologia",
+      linkName: "",
     },
     {
-      id: "serviços",
-      name: "Serviços",
+      id: "aboutus",
+      name: "Sobre mim",
+      linkName: "",
+    },
+    {
+      id: "testimonial",
+      name: "Depoimentos",
       linkName: "",
     },
   ];
@@ -102,10 +107,8 @@ const Header = () => {
                 </li>
                 <li className="num-bx">
                   <a href="https://wa.me/5564984028193">
-                    <i className="fas fa-phone-alt"></i> 
-										<span>
-											(+55) 64 98402-8193
-										</span>
+                    <i className="fas fa-phone-alt"></i>
+                    <span>(+55) 64 98402-8193</span>
                   </a>
                 </li>
                 <li className="btn-area">

@@ -15,6 +15,7 @@ import Faq from "./pages/faq";
 import ContactUs from "./pages/contact-us";
 import Error from "./pages/error-404";
 import Booking from "./pages/booking";
+// import metodologia from "./elements/testimonial";
 
 class Markup extends Component {
   render() {
@@ -28,6 +29,7 @@ class Markup extends Component {
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="*" element={<Error />} />
               <Route path="/Booking" element={<Booking />} />
+              {/* <Route path="/metodologias" element={<metodologia />} /> */}
             </Route>
           </Routes>
           <PageScrollTop />
