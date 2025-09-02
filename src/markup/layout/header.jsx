@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Sticky from "react-stickynode";
 import logo from "../../images/logo.png";
 import logoWhite from "../../images/logo-white.png";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,22 +51,22 @@ const Header = () => {
     {
       id: "home",
       name: "Home",
-      linkName: "#",
+      linkName: "home",
     },
     {
       id: "metodologia",
       name: "Metodologia",
-      linkName: "",
+      linkName: "methodology",
     },
     {
       id: "aboutus",
       name: "Sobre mim",
-      linkName: "",
+      linkName: "about",
     },
     {
       id: "testimonial",
       name: "Depoimentos",
-      linkName: "",
+      linkName: "testimonial",
     },
   ];
 
@@ -112,10 +113,16 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="btn-area">
-                  <Link to="/contact-us" className="btn btn-secondary shadow">
+                  <ScrollLink
+                    to="appointment"
+                    smooth={true}
+                    duration={200}
+                    offset={-70}
+                    className="btn btn-secondary shadow"
+                  >
                     CONTATE-ME{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </Link>
+                  </ScrollLink>
                 </li>
               </ul>
             </div>
@@ -134,39 +141,16 @@ const Header = () => {
 
               <ul className="nav navbar-nav">
                 {menuItems.map((item) => (
-                  <li
-                    key={item.id}
-                    className={`${activeItem === item.id ? "open" : ""}`}
-                    onClick={() => toggleSubmenu(item.id)}
-                  >
-                    {item.subItems ? (
-                      <Link to="#">
-                        {item.name}
-                        <i className={`fas fa-plus`}></i>
-                      </Link>
-                    ) : (
-                      <Link
-                        to={`/${item.linkName}`}
-                        onClick={handleMenuLinkClick}
-                      >
-                        {item.name}
-                      </Link>
-                    )}
-                    {(isMobileView || activeItem === item.id) &&
-                      item.subItems && (
-                        <ul className="sub-menu">
-                          {item.subItems.map((subItem, index) => (
-                            <li key={subItem.id}>
-                              <Link
-                                to={`/${subItem.linkName}`}
-                                onClick={handleMenuLinkClick}
-                              >
-                                <span>{subItem.displayName}</span>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
+                  <li key={item.id}>
+                    <ScrollLink
+                      to={item.linkName}
+                      smooth={true}
+                      duration={200}
+                      offset={-70} // ajuste se o header estiver cobrindo
+                      onClick={handleMenuLinkClick}
+                    >
+                      {item.name}
+                    </ScrollLink>
                   </li>
                 ))}
               </ul>

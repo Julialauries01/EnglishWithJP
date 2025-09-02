@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class LatestNewsSection extends Component {
   render() {
     return (
-      <>
+      <sectio id="methodology">
         <section className="section-sp1 service-wraper2">
           <div className="container">
             <div className="heading-bx text-center">
@@ -21,7 +21,6 @@ class LatestNewsSection extends Component {
             <div className="row">
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
-                  {/* <h2 className="counter text-secondary">1</h2> */}
                   <h5 className="ttr-title">Interação e Comunicação</h5>
                   <p>
                     Metodologia internacional e comunicativa, com foco na
@@ -62,7 +61,7 @@ class LatestNewsSection extends Component {
             </div>
           </div>
         </section>
-      </>
+      </sectio>
     );
   }
 }
