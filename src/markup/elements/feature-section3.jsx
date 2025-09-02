@@ -10,7 +10,7 @@ class LatestNewsSection extends Component {
               <div className="col-lg-6 mb-30"></div>
               <div className="heading-bx">
                 <h6 className="title-ext text-secondary">Metodologia</h6>
-                <h2 className="title">Mais do que Regras.</h2>
+                <h2 className="title">Mais do que regras.</h2>
                 <p>
                   Aprender inglês é se comunicar, entender culturas e explorar
                   novas possibilidades.
