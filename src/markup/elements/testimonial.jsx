@@ -1,17 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 // Import Images
-import testShape from "../../images/testimonials/shape.png";
-import testPic2 from "../../images/testimonials/pic2.jpg";
-import testPic3 from "../../images/testimonials/pic3.jpg";
-import testPic4 from "../../images/testimonials/pic4.jpg";
-import testPic8 from "../../images/testimonials/pic8.jpg";
-import testPic5 from "../../images/testimonials/pic5.jpg";
-import testPic6 from "../../images/testimonials/pic6.jpg";
+// import testShape from "../../images/testimonials/shape.png";
 import circleDots from "../../images/shap/circle-dots.png";
-import circleOrange2 from "../../images/shap/circle-orange-2.png";
 
 class testimonialSection extends Component {
   render() {
@@ -19,8 +11,8 @@ class testimonialSection extends Component {
       dots: false,
       infinite: true,
       speed: 1000,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 2,
+      slidesToScroll: 2,
     };
 
     return (
@@ -38,11 +30,11 @@ class testimonialSection extends Component {
               </h2>
             </div>
             <div className="row align-items-center">
-              <div className="col-lg-6 text-center">
-                <div className="thumb-wraper">
-                  <img className="bg-img" src={testShape} alt="" />
-                  <ul>
-                    <li data-member="1">
+              {/* <div className="col-lg-8 text-center"> */}
+              {/* <div className="thumb-wraper"> */}
+              {/* <img className="bg-img" src={testShape} alt="" /> */}
+              {/* <ul> */}
+              {/* <li data-member="1">
                       <Link to="#">
                         <img src={testPic3} alt="" />
                       </Link>
@@ -66,16 +58,16 @@ class testimonialSection extends Component {
                       <Link to="#">
                         <img src={testPic5} alt="" />
                       </Link>
-                    </li>
-                    <li data-member="6">
+                    </li> */}
+              {/* <li data-member="6">
                       <Link to="#">
                         <img src={testPic6} alt="" />
                       </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6">
+                    </li> */}
+              {/* </ul>
+                </div> */}
+              {/* </div> */}
+              <div className="col-lg-12">
                 <Slider {...settings} className="testimonial-slide">
                   <div className="slider-item">
                     <div className="testimonial-bx">
@@ -244,7 +236,7 @@ class testimonialSection extends Component {
             </div>
           </div>
           <img className="pt-img3 animate3" src={circleDots} alt="" />
-          <img className="pt-img4 animate4" src={circleOrange2} alt="" />
+          {/* <img className="pt-img4 animate4" src={circleOrange2} alt="" /> */}
         </section>
       </>
     );
