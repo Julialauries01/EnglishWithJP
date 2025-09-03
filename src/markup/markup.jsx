@@ -11,7 +11,6 @@ import Footer from "./layout/footer";
 
 // All Pages Router
 import Index from "./pages/index";
-import Faq from "./pages/faq";
 import Error from "./pages/error-404";
 import Booking from "./pages/booking";
 import Appointment from "../markup/elements/appointment";
@@ -26,7 +25,6 @@ class Markup extends Component {
           <Routes>
             <Route element={<ThemeLayout />}>
               <Route path="/" element={<Index />} />
-              <Route path="/faq" element={<Faq />} />
               <Route path="*" element={<Error />} />
               <Route path="/Booking" element={<Booking />} />
               <Route path="/Appointment" element={<Appointment />} />

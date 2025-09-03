@@ -10,12 +10,7 @@ const Header = () => {
   const [isSearchFormOpen, setIsSearchBtn] = useState(false);
   const quikSearchBtn = () => setIsSearchBtn(!isSearchFormOpen);
   const quikSearchClose = () => setIsSearchBtn(false);
-  const [activeItem, setActiveItem] = useState(null);
   const [isMobileView, setIsMobileView] = useState(false);
-
-  const toggleSubmenu = (item) => {
-    setActiveItem(item === activeItem ? null : item);
-  };
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
