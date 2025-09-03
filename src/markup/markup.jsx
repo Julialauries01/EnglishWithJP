@@ -15,8 +15,6 @@ import Error from "./pages/error-404";
 import Booking from "./pages/booking";
 import Appointment from "../markup/elements/appointment";
 
-// import metodologia from "./elements/testimonial";
-
 class Markup extends Component {
   render() {
     return (
@@ -28,7 +26,6 @@ class Markup extends Component {
               <Route path="*" element={<Error />} />
               <Route path="/Booking" element={<Booking />} />
               <Route path="/Appointment" element={<Appointment />} />
-              {/* <Route path="/metodologias" element={<metodologia />} /> */}
             </Route>
           </Routes>
           <PageScrollTop />
