@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 // Import Images
 import bg2 from "../../images/main-banner/bg2.jpg";
 import logoImg from "../../images/main-banner/logo.png";
-// import ptImg1 from '../../images/shap/trangle-orange.png';
-// import ptImg2 from '../../images/shap/square-blue.png';
-// import ptImg3 from '../../images/shap/chicle-blue-2.png';
-// import ptImg4 from '../../images/shap/plus-orange.png';
-// import ptImg5 from '../../images/shap/wave-orange.png';
 
 class aboutSection2 extends Component {
   render() {
@@ -28,12 +23,16 @@ class aboutSection2 extends Component {
                   Aulas dinâmicas e personalizadas para você ganhar confiança
                   falando inglês desde a primeira aula.
                 </h2>
-                <Link
-                  to="/appointment"
+                {/* Botão com scroll suave */}
+                <ScrollLink
+                  to="appointment" // 👈 id da seção alvo
+                  smooth={true}
+                  duration={800} // tempo da animação
+                  offset={-70} // ajuste se tiver header fixo
                   className="btn mt-5 btn-dark btn-lg shadow"
                 >
                   Quero estudar inglês agora!
-                </Link>
+                </ScrollLink>
               </div>
               <div className="col-lg-5 col-md-6 col-sm-5">
                 <div className="banner-img">
