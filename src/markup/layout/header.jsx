@@ -8,7 +8,6 @@ import { Link as ScrollLink } from "react-scroll";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchFormOpen, setIsSearchBtn] = useState(false);
-  const quikSearchBtn = () => setIsSearchBtn(!isSearchFormOpen);
   const quikSearchClose = () => setIsSearchBtn(false);
   const [isMobileView, setIsMobileView] = useState(false);
 
@@ -91,16 +90,6 @@ const Header = () => {
 
             <div className="secondary-menu">
               <ul>
-                <li className="search-btn">
-                  <button
-                    id="quikSearchBtn"
-                    type="button"
-                    className="btn-link"
-                    onClick={quikSearchBtn}
-                  >
-                    <i className="las la-search"></i>
-                  </button>
-                </li>
                 <li className="num-bx">
                   <a href="https://wa.me/5564984028193">
                     <i className="fas fa-phone-alt"></i>
