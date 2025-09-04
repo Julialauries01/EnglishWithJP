@@ -70,9 +70,7 @@ const Header = () => {
         <div className="menu-bar clearfix">
           <div className="container-fluid clearfix">
             <div className="menu-logo logo-dark">
-              <Link to="/">
-                <img src={logo} alt="" />
-              </Link>
+              <img src={logo} alt="" />
             </div>
 
             <button

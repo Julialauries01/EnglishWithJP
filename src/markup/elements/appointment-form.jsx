@@ -47,6 +47,7 @@ class AppointmentForm extends Component {
               className="form-control"
               value="Professor João Pedro"
               readOnly
+              aria-label="Professor"
             />
           </div>
 
@@ -58,6 +59,7 @@ class AppointmentForm extends Component {
               name="Name"
               placeholder="Seu nome"
               required
+              aria-label="Seu nome"
             />
           </div>
 
@@ -69,6 +71,7 @@ class AppointmentForm extends Component {
               name="Number"
               placeholder="Número de telefone"
               required
+              aria-label="Número de telefone"
             />
           </div>
 
@@ -79,6 +82,7 @@ class AppointmentForm extends Component {
               name="Observations"
               rows="4"
               placeholder="Caso queira, você pode nos contar um pouco sobre você: por que quer aprender inglês, se já estudou antes e qual nível acredita ter atualmente?"
+              aria-label="Observações"
             ></textarea>
           </div>
 
@@ -87,6 +91,7 @@ class AppointmentForm extends Component {
             type="submit"
             className="btn btn-secondary btn-lg"
             value="Agendar Aula"
+            aria-label="Agendar Aula"
           />
         </form>
       </div>
