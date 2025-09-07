@@ -26,11 +26,11 @@ class aboutSection extends Component {
                   <p>
                     Olá, meu nome é João Pedro e sou professor de Língua Inglesa
                     há quase 8 anos. Sou licenciado em Letras e possuo
-                    pós-graduação em Língua Inglesa, além de diversos cursos de
-                    complementação nas áreas de ensino de línguas e Linguística.
-                    Ao longo da minha trajetória, atuei em instituições de
-                    ensino reconhecidas e, desde a pandemia, dedico-me
-                    exclusivamente ao ensino on-line, oferecendo aulas
+                    pós-graduação em Língua Inglesa e em Linguística, além de
+                    diversos cursos de complementação nas áreas de ensino de
+                    línguas e Linguística. Ao longo da minha trajetória, atuei
+                    em instituições de ensino reconhecidas e, desde a pandemia,
+                    dedico-me exclusivamente ao ensino on-line, oferecendo aulas
                     particulares para alunos no Brasil e também no exterior.
                   </p>
                 </div>

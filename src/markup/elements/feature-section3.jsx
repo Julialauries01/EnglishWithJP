@@ -23,7 +23,7 @@ class LatestNewsSection extends Component {
                 <div className="feature-container feature-bx3">
                   <h5 className="ttr-title">Interação e Comunicação</h5>
                   <p>
-                    Metodologia internacional e comunicativa, com foco na
+                    Metodologia interacional e comunicativa, com foco na
                     conversação e prática real do inglês.
                   </p>
                 </div>
@@ -31,7 +31,7 @@ class LatestNewsSection extends Component {
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
                   {/* <h2 className="counter text-secondary">2</h2> */}
-                  <h5 className="ttr-title">Aprendizado Contextualizado</h5>
+                  <h5 className="ttr-title">Aprendizagem Contextualizado</h5>
                   <p>
                     O inglês é aprendido de forma significativa, dinâmica e
                     personalizada, respeitando seu ritmo.
@@ -54,7 +54,7 @@ class LatestNewsSection extends Component {
                   <h5 className="ttr-title">Imersão Completa</h5>
                   <p>
                     Trabalhamos fala, escuta, leitura e escrita, sempre com
-                    interação como ponto central para seu aprendizado.
+                    interação como ponto central para sua aprendizagem.
                   </p>
                 </div>
               </div>
