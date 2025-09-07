@@ -33,7 +33,9 @@ class FooterSection extends Component {
                   </div>
                   <div className="ft-contact">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aprender inglês pode ser leve e transformador. Aqui você
+                      encontra aulas práticas e dinâmicas para alcançar seus
+                      objetivos. Vamos juntos nessa jornada?{" "}
                     </p>
                     <div className="contact-bx">
                       <a

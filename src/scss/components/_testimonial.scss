@@ -113,6 +113,12 @@
 	padding: 50px;
 	margin: 50px 20px 20px;
 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	/* garante altura igual ao slide */
+
 	&:after {
 		content: "\f10e";
 		position: absolute;
@@ -211,24 +217,17 @@
 /* ==================
    Ajuste de altura uniforme para slides
 =================== */
-.testimonial-slide .slider-item {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	/* garante que os slides se estiquem igualmente */
-	height: 100%;
-}
-
-.testimonial-bx {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 100%;
-	/* faz o box do slide ocupar 100% do slider */
-}
-
 .testimonial-slide {
 	padding-bottom: 75px;
+
+	.slider-item {
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		height: 100%;
+		min-height: 350px;
+		/* define altura mínima */
+	}
 
 	.slick-arrow {
 		height: 50px;
