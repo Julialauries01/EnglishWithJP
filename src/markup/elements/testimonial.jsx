@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-// Import Images
-// import testShape from "../../images/testimonials/shape.png";
-import circleDots from "../../images/shap/circle-dots.png";
+// import circleDots from "../../images/shap/circle-dots.png";
 
 class testimonialSection extends Component {
   render() {
@@ -30,105 +28,8 @@ class testimonialSection extends Component {
               </h2>
             </div>
             <div className="row align-items-center">
-              {/* <div className="col-lg-8 text-center"> */}
-              {/* <div className="thumb-wraper"> */}
-              {/* <img className="bg-img" src={testShape} alt="" /> */}
-              {/* <ul> */}
-              {/* <li data-member="1">
-                      <Link to="#">
-                        <img src={testPic3} alt="" />
-                      </Link>
-                    </li>
-                    <li data-member="2">
-                      <Link to="#">
-                        <img src={testPic2} alt="" />
-                      </Link>
-                    </li>
-                    <li data-member="3">
-                      <Link to="#">
-                        <img src={testPic4} alt="" />
-                      </Link>
-                    </li>
-                    <li data-member="4">
-                      <Link to="#">
-                        <img src={testPic8} alt="" />
-                      </Link>
-                    </li>
-                    <li data-member="5">
-                      <Link to="#">
-                        <img src={testPic5} alt="" />
-                      </Link>
-                    </li> */}
-              {/* <li data-member="6">
-                      <Link to="#">
-                        <img src={testPic6} alt="" />
-                      </Link>
-                    </li> */}
-              {/* </ul>
-                </div> */}
-              {/* </div> */}
               <div className="col-lg-12">
                 <Slider {...settings} className="testimonial-slide">
-                  <div className="slider-item">
-                    <div className="testimonial-bx">
-                      <div className="testimonial-content">
-                        <p>
-                          As aulas com o João Pedro são diferenciadas para mim,
-                          pois minhas dificuldades são trabalhadas
-                          individualmente e não tenho que ficar esperando outros
-                          alunos me alcançarem ou eu alcançar outros alunos.
-                        </p>
-                      </div>
-                      <div className="client-info">
-                        <h5 className="name">Bruno</h5>
-                        <p>Chefe de Setor Financeiro | São Paulo</p>
-                      </div>
-                      <div className="quote-icon">
-                        <i className="fas fa-quote-left"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="slider-item">
-                    <div className="testimonial-bx">
-                      <div className="testimonial-content">
-                        <p>
-                          Minha evolução nas aulas se deve a metodologia que ele
-                          usa de "falar sempre em inglês" vejo que a cada aula
-                          eu me sinto mais tranquilo falando inglês, me sinto
-                          mais curioso, mais receptivo a novas informações e
-                          isso me alegra muito.
-                        </p>
-                      </div>
-                      <div className="client-info">
-                        <h5 className="name">Raphael</h5>
-                        <p>
-                          Treinador esportivo de escolas bilíngues | São Paulo
-                        </p>
-                      </div>
-                      <div className="quote-icon">
-                        <i className="fas fa-quote-left"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="slider-item">
-                    <div className="testimonial-bx">
-                      <div className="testimonial-content">
-                        <p>
-                          Nas aulas com o João, consigo tirar minhas dúvidas,
-                          consigo evoluir gradualmente com o tempo que eu
-                          preciso, não preciso pular etapas, e percebo que a
-                          cada aula eu evoluo mais.
-                        </p>
-                      </div>
-                      <div className="client-info">
-                        <h5 className="name">Vinicius Souza da Cruz</h5>
-                        <p>Professor em escolas bilíngues | São Paulo </p>
-                      </div>
-                      <div className="quote-icon">
-                        <i className="fas fa-quote-left"></i>
-                      </div>
-                    </div>
-                  </div>
                   <div className="slider-item">
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
@@ -174,29 +75,6 @@ class testimonialSection extends Component {
                       <div className="testimonial-content">
                         <p>
                           {" "}
-                          A logística da aula e a forma que o João ministra são
-                          sensacionais! Temas diversos, muita aplicabilidade no
-                          dia a dia e muita coisa da minha própria rotina.
-                        </p>
-                      </div>
-                      <div className="client-info">
-                        <h5 className="name">Bernardo Possidente</h5>
-                        <p>
-                          Professor de Educação Física e Treinador Esportivo |
-                          São Paulo
-                        </p>
-                      </div>
-                      <div className="quote-icon">
-                        <i className="fas fa-quote-left"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="slider-item">
-                    <div className="testimonial-bx">
-                      <div className="testimonial-content">
-                        <p>
-                          {" "}
                           O professor é paciente e sempre incentiva a prática, o
                           que ajuda muito.
                         </p>
@@ -204,6 +82,25 @@ class testimonialSection extends Component {
                       <div className="client-info">
                         <h5 className="name">Alberto Junior</h5>
                         <p>Professor de Educação Física | São Gonçalo, RJ</p>
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          Nas aulas com o João, consigo tirar minhas dúvidas,
+                          consigo evoluir gradualmente com o tempo que eu
+                          preciso, não preciso pular etapas, e percebo que a
+                          cada aula eu evoluo mais.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Vinicius Souza da Cruz</h5>
+                        <p>Professor em escolas bilíngues | São Paulo </p>
                       </div>
                       <div className="quote-icon">
                         <i className="fas fa-quote-left"></i>
@@ -231,12 +128,74 @@ class testimonialSection extends Component {
                       </div>
                     </div>
                   </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          As aulas com o João Pedro são diferenciadas para mim,
+                          pois minhas dificuldades são trabalhadas
+                          individualmente e não tenho que ficar esperando outros
+                          alunos me alcançarem ou eu alcançar outros alunos.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Bruno</h5>
+                        <p>Chefe de Setor Financeiro | São Paulo</p>
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          {" "}
+                          A logística da aula e a forma que o João ministra são
+                          sensacionais! Temas diversos, muita aplicabilidade no
+                          dia a dia e muita coisa da minha própria rotina.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Bernardo Possidente</h5>
+                        <p>
+                          Professor de Educação Física e Treinador Esportivo |
+                          São Paulo
+                        </p>
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          Minha evolução nas aulas se deve a metodologia que ele
+                          usa de "falar sempre em inglês" vejo que a cada aula
+                          eu me sinto mais tranquilo falando inglês, me sinto
+                          mais curioso, mais receptivo a novas informações e
+                          isso me alegra muito.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Raphael</h5>
+                        <p>
+                          Treinador esportivo de escolas bilíngues | São Paulo
+                        </p>
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
                 </Slider>
               </div>
             </div>
           </div>
-          <img className="pt-img3 animate3" src={circleDots} alt="" />
-          {/* <img className="pt-img4 animate4" src={circleOrange2} alt="" /> */}
+          {/* <img className="pt-img3 animate3" src={circleDots} alt="" /> */}
         </section>
       </>
     );
