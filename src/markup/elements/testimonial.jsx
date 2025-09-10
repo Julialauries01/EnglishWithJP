@@ -11,6 +11,15 @@ class testimonialSection extends Component {
       speed: 1000,
       slidesToShow: 2,
       slidesToScroll: 2,
+      responsive: [
+        {
+          breakpoint: 768, // até 768px (tablet/phone)
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
 
     return (
