@@ -143,7 +143,7 @@ class FooterSection extends Component {
             <div className="row">
               <div className="col-12 text-center">
                 <p className="copyright-text">
-                  Copyright © 2024 Design & Developed by{" "}
+                  Copyright © 2025 Design & Developed by{" "}
                   <a
                     href="http://linkedin.com/in/julialauries/"
                     rel="noreferrer"

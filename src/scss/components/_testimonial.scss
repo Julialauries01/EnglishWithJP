@@ -105,8 +105,9 @@
 	}
 }
 
-
-
+/* ==================
+	Testimonial Box
+=================== */
 .testimonial-bx {
 	position: relative;
 	border-radius: 40px 0 40px 40px;
@@ -228,8 +229,6 @@
 		justify-content: center;
 		align-items: stretch;
 		height: 100%;
-
-
 	}
 
 	.slick-arrow {
@@ -238,7 +237,6 @@
 		border-radius: 12px;
 		background-color: #69060B;
 		color: #69060B;
-		font-size: 24px;
 		bottom: 0;
 		top: auto;
 		@include transitionMedium;
@@ -246,7 +244,6 @@
 		z-index: 10;
 
 		&:before {
-			content: "";
 			font-family: 'Line Awesome Free';
 			font-weight: 900;
 			color: #fff;
@@ -310,10 +307,12 @@
 		.swiper-pagination {
 			right: 10px;
 		}
-
 	}
 }
 
+/* ==================
+	Wrapper de imagens decorativas
+=================== */
 .testimonial-wraper {
 	.pt-img1 {
 		top: 165px;
