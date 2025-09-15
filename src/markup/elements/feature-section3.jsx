@@ -31,7 +31,7 @@ class LatestNewsSection extends Component {
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
                   {/* <h2 className="counter text-secondary">2</h2> */}
-                  <h5 className="ttr-title">Aprendizagem Contextualizado</h5>
+                  <h5 className="ttr-title">Aprendizagem Contextualizada</h5>
                   <p>
                     O inglês é aprendido de forma significativa, dinâmica e
                     personalizada, respeitando seu ritmo.
